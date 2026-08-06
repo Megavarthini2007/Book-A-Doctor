@@ -1,0 +1,31 @@
+{
+  "info": {
+    "name": "Book A Doctor API Collection",
+    "description": "Postman API specification collection for Book A Doctor REST API endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        { "name": "Login", "request": { "method": "POST", "url": "{{baseUrl}}/auth/login" } },
+        { "name": "Register Patient", "request": { "method": "POST", "url": "{{baseUrl}}/auth/register/patient" } },
+        { "name": "Register Doctor", "request": { "method": "POST", "url": "{{baseUrl}}/auth/register/doctor" } }
+      ]
+    },
+    {
+      "name": "Doctors",
+      "item": [
+        { "name": "Get Doctors", "request": { "method": "GET", "url": "{{baseUrl}}/doctors" } },
+        { "name": "Get Doctor by ID", "request": { "method": "GET", "url": "{{baseUrl}}/doctors/:id" } }
+      ]
+    },
+    {
+      "name": "Appointments",
+      "item": [
+        { "name": "Create Appointment", "request": { "method": "POST", "url": "{{baseUrl}}/appointments" } },
+        { "name": "Get Appointments", "request": { "method": "GET", "url": "{{baseUrl}}/appointments" } }
+      ]
+    }
+  ]
+}

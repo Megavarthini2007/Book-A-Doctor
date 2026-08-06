@@ -1,0 +1,56 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'react-toastify/dist/ReactToastify.css';
+@import './assets/styles/design-system.css';
+
+/* Layout max-width utility classes */
+.max-w-xs { max-width: 320px !important; }
+.max-w-sm { max-width: 380px !important; }
+.max-w-md { max-width: 440px !important; }
+.max-w-lg { max-width: 520px !important; }
+.max-w-xl { max-width: 640px !important; }
+.max-w-2xl { max-width: 768px !important; }
+.max-w-3xl { max-width: 992px !important; }
+
+/* Utility classes */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.avatar-sm {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-md {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-lg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.shadow-xs {
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.06);
+}

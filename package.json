@@ -1,0 +1,21 @@
+{
+  "name": "book-a-doctor-monorepo",
+  "version": "1.0.0",
+  "description": "Book A Doctor - Professional Healthcare SaaS Platform (Frontend + Future MERN Ready)",
+  "private": true,
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "healthcare",
+    "saas",
+    "react",
+    "bootstrap5",
+    "mern",
+    "doctor-booking"
+  ],
+  "author": "Book A Doctor Team",
+  "license": "MIT"
+}

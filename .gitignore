@@ -23,9 +23,11 @@ server/dist/
 uploads/
 server/uploads/
 *.log
+*.timestamp-*.mjs
 
 # OS & Editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+

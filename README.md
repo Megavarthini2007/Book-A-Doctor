@@ -3,6 +3,13 @@
 **Book A Doctor** is an enterprise-grade healthcare appointment discovery, booking, management, clinical consultation, and administrative SaaS platform.
 
 ---
+🔗Project Link
+
+* 🌐 Live Deployed Application: http://localhost:5174/
+
+* 📽️ Demo Video:https://drive.google.com/drive/folders/1ZuhJwa986bxSCtZvv1-9RHnVooikSjJp?usp=drive_link
+
+* 📁Project Documentation:https://drive.google.com/drive/folders/1b-2rZvwDzeJaKzHGDgSOe5U-1J1o1x8Z?usp=drive_link
 
 ## Current Development Phase
 

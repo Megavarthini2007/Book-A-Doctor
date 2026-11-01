@@ -5,7 +5,7 @@
 ---
 🔗Project Link
 
-* 🌐 Live Deployed Application: http://localhost:5174/
+* 🌐 Live Deployed Application: https://book-a-doctor-pink.vercel.app/
 
 * 📽️ Demo Video:https://drive.google.com/drive/folders/1ZuhJwa986bxSCtZvv1-9RHnVooikSjJp?usp=drive_link
 
